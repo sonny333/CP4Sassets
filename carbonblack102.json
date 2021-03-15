@@ -10302,7 +10302,7 @@
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
             "first_observed": "2021-03-12T19:01:21.172Z",
             "id": "observed-data--2fe8daa7-94d1-4faa-aa87-363dc3a3425a",
-            "last_observed": "22021-03-12T19:01:21.172Z",
+            "last_observed": "2021-03-12T19:01:21.172Z",
             "modified": "2021-03-12T19:01:21.172Z",
             "number_observed": 1,
             "objects": {

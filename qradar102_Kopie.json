@@ -257,627 +257,319 @@
             "last_observed": "2021-03-10T18:47:01.468Z",
             "number_observed": 1
         },
-         {
+{
             "type": "identity",
-
             "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-
             "name": "QRadar",
-
             "identity_class": "flows"
-
         },
         {
             "id": "observed-data--cc4719e0-667a-4249-ba05-ee247f1fe1b0",
-
             "type": "observed-data",
-
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-
             "created": "2021-03-16T17:10:31.202Z",
-
             "modified": "2021-03-16T17:10:31.202Z",
-
             "objects": {
-
                 "0": {
-
                     "type": "x-qradar",
-
                     "application_id": 9999,
-
                     "credibility": 10,
-
                     "domain_id": 0,
-
                     "first_packet_time": 1615401973480,
-
                     "direction": "L2R",
-
                     "flow_interface_id": [
-
                         55
-
                     ],
-
                     "flow_source": [
-
                         "QRadarAIO"
-
                     ],
-
                     "flow_type": "Standard Flow",
-
                     "geographic": "Oceania.PapuaNewGuinea",
-
                     "flow_interface": [
-
                         "QRadarAIO:AppHost_iseccs_us"
-
                     ],
-
                     "last_packet_time": 1615401973481,
-
                     "qid": 53268764,
-
                     "relevance": 10,
-
                     "severity": 1,
-
                     "http_response_code": 204,
-
                     "suspect_content_descriptions": [
-
                         "spam",
-
                         "entity alert"
-
                     ]
-
                 },
-
                 "1": {
-
                     "type": "software",
-
                     "name": "Web.Web.Misc"
-
                 },
-
                 "2": {
-
                     "type": "x-oca-event",
-
                     "outcome": "Web",
-
                     "network_ref": "4",
-
                     "action": "Web.HTTPWeb",
-
                     "file_ref": "9"
-
                 },
-
                 "3": {
-
                     "type": "x-QRadar",
-
                     "destinationasn": [
-
                         0
-
                     ],
-
                     "destinationdscp": 0,
-
                     "destinationflags": 0,
-
                     "destinationifindex": [
-
                         0
-
                     ],
-
                     "destinationprecedence": 0,
-
                     "fullmatchlist": [
-
                         100020,
-
                         101310,
-
                         101510,
-
                         101460,
-
                         100211,
-
                         100209,
-
                         100205,
-
                         100270,
-
                         100094,
-
                         100200
-
                     ],
-
                     "flowbias": "other",
-
                     "hasoffense": true,
-
                     "intervalid": 1615402020,
-
                     "isduplicate": false,
-
                     "partialmatchlist": [
-
                         100254
-
                     ],
-
                     "processorid": 8,
-
                     "sourceasn": [
-
                         0
-
                     ],
-
                     "sourcedscp": 0,
-
                     "sourceflags": 0,
-
                     "sourceifindex": [
-
                         0
-
                     ],
-
                     "sourceprecedence": 0
-
                 },
-
                 "4": {
-
                     "type": "network-traffic",
-
                     "dst_byte_count": 0,
-
                     "dst_ref": "5",
-
                     "dst_packets": 0,
-
                     "dst_port": 80,
-
                     "protocols": [
-
                         "tcp"
-
                     ],
-
                     "src_byte_count": 0,
-
                     "src_ref": "7",
-
                     "src_packets": 0,
-
                     "src_port": 20476,
-
                     "extensions": {
-
                         "http-request-ext": {
-
                             "request_header": {
-
                                 "Host": "172.16.40.128",
-
                                 "Server": "Apache/2.4.29 (Debian)",
-
                                 "Content-Type": "application/vnd.ms-excel"
-
                             },
-
                             "request_version": "HTTP/1.1"
-
                         }
-
                     },
-
                     "ipfix": {
-
                         "flowId": 10605391145540868000
-
                     }
-
                 },
-
                 "5": {
-
                     "type": "ipv4-addr",
-
                     "value": "124.240.198.66"
-
                 },
-
                 "6": {
-
                     "type": "x-ibm-finding",
-
                     "dst_ip_ref": "5",
-
                     "src_ip_ref": "7",
-
                     "start": "2021-03-10T18:46:13.480Z",
-
                     "end": "2021-03-10T18:47:13.480Z"
-
                 },
-
                 "7": {
-
                     "type": "ipv4-addr",
-
                     "value": "192.168.1.114"
-
                 },
-
                 "8": {
-
                     "type": "x-oca-asset",
-
                     "ip_refs": [
-
                         "7"
-
                     ]
-
                 },
-
                 "9": {
-
                     "type": "file",
-
                     "name": "POST_employees.xls",
-
                     "size": 67072,
-
                     "mime_type": "application/vnd.ms-excel"
-
                 },
-
                 "10": {
-
                     "type": "url",
-
                     "value": "172.16.40.128"
-
                 },
-
                 "11": {
-
                     "type": "email-message",
-
                     "content_type": "application/vnd.ms-excel"
-
                 }
-
             },
-
             "first_observed": "2021-03-10T18:46:13.480Z",
-
             "last_observed": "2021-03-10T18:47:13.480Z",
-
             "number_observed": 1
         },
         {
-
             "id": "observed-data--5c654d9c-cb15-474b-b353-45c1bdaae3ff",
-
             "type": "observed-data",
-
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-
             "created": "2021-03-16T17:10:31.208Z",
-
             "modified": "2021-03-16T17:10:31.208Z",
-
             "objects": {
-
                 "0": {
-
                     "type": "x-qradar",
-
                     "application_id": 9999,
-
                     "credibility": 10,
-
                     "domain_id": 0,
-
                     "first_packet_time": 1615401985620,
-
                     "direction": "L2R",
-
                     "flow_interface_id": [
-
                         55
-
                     ],
-
                     "flow_source": [
-
                         "QRadarAIO"
-
                     ],
-
                     "flow_type": "Standard Flow",
-
                     "geographic": "Oceania.PapuaNewGuinea",
-
                     "flow_interface": [
-
                         "QRadarAIO:AppHost_iseccs_us"
-
                     ],
-
                     "last_packet_time": 1615401985621,
-
                     "qid": 53268764,
-
                     "relevance": 10,
-
                     "severity": 1,
-
                     "http_response_code": 204,
-
                     "suspect_content_descriptions": [
-
                         "spam",
-
                         "entity alert"
-
                     ]
-
                 },
-
                 "1": {
-
                     "type": "software",
-
                     "name": "Web.Web.Misc"
-
                 },
-
                 "2": {
-
                     "type": "x-oca-event",
-
                     "outcome": "Web",
-
                     "network_ref": "4",
-
                     "action": "Web.HTTPWeb",
-
                     "file_ref": "9"
-
                 },
-
                 "3": {
-
                     "type": "x-QRadar",
-
                     "destinationasn": [
-
                         0
-
                     ],
-
                     "destinationdscp": 0,
-
                     "destinationflags": 0,
-
                     "destinationifindex": [
-
                         0
-
                     ],
-
                     "destinationprecedence": 0,
-
                     "fullmatchlist": [
-
                         100020,
-
                         101310,
-
                         101510,
-
                         101460,
-
                         100211,
-
                         100209,
-
                         100205,
-
                         100270,
-
                         100094,
-
                         100200
-
                     ],
-
                     "flowbias": "other",
-
                     "hasoffense": true,
-
                     "intervalid": 1615402020,
-
                     "isduplicate": false,
-
                     "partialmatchlist": [
-
                         100254
-
                     ],
-
                     "processorid": 8,
-
                     "sourceasn": [
-
                         0
-
                     ],
-
                     "sourcedscp": 0,
-
                     "sourceflags": 0,
-
                     "sourceifindex": [
-
                         0
-
                     ],
-
                     "sourceprecedence": 0
-
                 },
-
                 "4": {
-
                     "type": "network-traffic",
-
                     "dst_byte_count": 0,
-
                     "dst_ref": "5",
-
                     "dst_packets": 0,
-
                     "dst_port": 80,
-
                     "protocols": [
-
                         "tcp"
-
                     ],
-
                     "src_byte_count": 0,
-
                     "src_ref": "7",
-
                     "src_packets": 0,
-
                     "src_port": 20477,
-
                     "extensions": {
-
                         "http-request-ext": {
-
                             "request_header": {
-
                                 "Host": "172.16.40.128",
-
                                 "Server": "Apache/2.4.29 (Debian)",
-
                                 "Content-Type": "application/vnd.ms-excel"
-
                             },
-
                             "request_version": "HTTP/1.1"
-
                         }
-
                     },
-
                     "ipfix": {
-
                         "flowId": 18237549007227914000
-
                     }
-
                 },
-
                 "5": {
-
                     "type": "ipv4-addr",
-
                     "value": "124.240.198.66"
-
                 },
-
                 "6": {
-
                     "type": "x-ibm-finding",
-
                     "dst_ip_ref": "5",
-
                     "src_ip_ref": "7",
-
                     "start": "2021-03-10T18:46:25.620Z",
-
                     "end": "2021-03-10T18:47:25.620Z"
-
                 },
-
                 "7": {
-
                     "type": "ipv4-addr",
-
                     "value": "192.168.1.114"
-
                 },
-
                 "8": {
-
                     "type": "x-oca-asset",
-
                     "ip_refs": [
-
                         "7"
-
                     ]
-
                 },
-
                 "9": {
-
                     "type": "file",
-
                     "name": "POST_customers.xls",
-
                     "size": 187392,
-
                     "mime_type": "application/vnd.ms-excel"
-
                 },
-
                 "10": {
-
                     "type": "url",
-
                     "value": "172.16.40.128"
-
                 },
-
                 "11": {
-
                     "type": "email-message",
-
                     "content_type": "application/vnd.ms-excel"
-
                 }
-
             },
-
             "first_observed": "2021-03-10T18:46:25.620Z",
-
             "last_observed": "2021-03-10T18:47:25.620Z",
-
             "number_observed": 1
-
         }
     ]
 }

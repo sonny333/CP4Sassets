@@ -134,17 +134,6 @@
             "number_observed": 1
         },
         {
-
-            "type": "identity",
-
-            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-
-            "name": "QRadar",
-
-            "identity_class": "flows"
-
-        },
-        {
             "id": "observed-data--1e39942a-4ab7-4ef4-bc6c-a53691f78815",
             "type": "observed-data",
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",

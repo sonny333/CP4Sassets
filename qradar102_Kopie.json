@@ -257,7 +257,17 @@
             "last_observed": "2021-03-10T18:47:01.468Z",
             "number_observed": 1
         },
-{
+         {
+            "type": "identity",
+
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+
+            "name": "QRadar",
+
+            "identity_class": "flows"
+
+        },
+        {
             "id": "observed-data--cc4719e0-667a-4249-ba05-ee247f1fe1b0",
 
             "type": "observed-data",
@@ -561,9 +571,7 @@
             "last_observed": "2021-03-10T18:47:13.480Z",
 
             "number_observed": 1
-
         },
-
         {
 
             "id": "observed-data--5c654d9c-cb15-474b-b353-45c1bdaae3ff",

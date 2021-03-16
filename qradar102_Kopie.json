@@ -7,7 +7,7 @@
             "type": "identity",
             "id": "identity--5531f809-377b-45e0-aa1c-6a4751cae5ff",
             "name": "QRadar",
-            "identity_class": "flows"
+            "identity_class": "events"
         },
         {
             "id": "observed-data--554719e0-667a-4249-ba05-ee247f1fe1b0",

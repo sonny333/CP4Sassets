@@ -1,9 +1,9 @@
 {
     "type": "bundle",
-    "id": "bundle--17647aa4-e54d-46b7-abd1-14d6ba6eb5b3",
+    "id": "bundle--6678e4b8-78b6-4a35-8c0b-ae22e3e592f1",
     "spec_version": "2.0",
     "objects": [
-{
+        {
             "type": "identity",
             "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
             "name": "QRadar",
